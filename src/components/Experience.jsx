@@ -8,6 +8,10 @@ import github from "../assets/github.png"
 import mongodb from "../assets/mongo.png"
 import bootstrap from "../assets/botstrap.png"
 import tailwind from "../assets/tailwind.png"
+import graphql from "../assets/graphql.png"
+import reactnative from "../assets/react.png"
+import nextjs from "../assets/nextjs.jpg"
+
 
 
 function Experience() {
@@ -60,7 +64,7 @@ function Experience() {
         {
             id:8,
             src: tailwind,
-            title: "Tailwind",
+            title: "Tailwind CSS",
             style: "shadow-sky-500"
         },
         {
@@ -68,6 +72,24 @@ function Experience() {
             src: github,
             title: "Github",
             style: "shadow-gray-500"
+        },
+        {
+            id:10,
+            src: nextjs,
+            title: "Next JS",
+            style: "shadow-gray-500"
+        },
+        {
+            id:11,
+            src: reactnative,
+            title: "React Native",
+            style: "shadow-sky-500"
+        },
+        {
+            id:12,
+            src: graphql,
+            title: "Graph-ql",
+            style: "shadow-purple-500"
         },
     ]
  
@@ -79,7 +101,7 @@ function Experience() {
  
  
     return (
-    <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+    <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-[210%] md:pt-[95%] lg:pt-[78%] xl:pt-[3%]'>
 
 
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Raleway:ital,wght@0,600;1,300;1,400;1,600;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Instrument+Serif:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,5 +11,10 @@
   html {
     font-family: 'Instrument Serif', serif;
 font-family: 'Raleway', sans-serif;
+font-family: 'Merriweather', serif;
   }
+
+.merriweather{
+  font-family: 'Merriweather', serif;
+}
 }
