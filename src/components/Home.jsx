@@ -11,7 +11,7 @@ function Home() {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-3xl sm:text-6xl font-bold text-white merriweather">
+          <h2 className="text-3xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 via-violet-600 to-yellow-500 merriweather">
             I'm a MERN Stack Developer
           </h2>
           <br />
@@ -22,21 +22,14 @@ function Home() {
                         <b> <i>NEXT JS,React Native, React JS, Bootstrap, Tailwind CSS, Graphql, Node JS, Express JS and Mongo DB</i></b>  <br />
                         & I'm working as a <b> <i> MERN Stack Developer </i></b> in Global Tech Solutions, Lahore.
                     </p> */}
-          <p className='text-white tracking-wider text-[18px]'>
-            Hi, I'm a passionate MERN Stack Developer <br /> with a solid background in
-            HTML, CSS, and JavaScript, <br />  as well as 2 years of experience in these
-            core technologies, <br /> I have honed my skills to deliver exceptional web
-            experiences. <br /> Over the past year, I've been diving deep into the
-            world <br /> of <i>React JS and Node JS</i> ,<br /> building dynamic and interactive web
-            applications. <br /> My expertise extends to exciting technologies like <br />
-            <i>Next JS, React Native, Bootstrap, Tailwind CSS, <br /> GraphQL, Express JS,
-            and MongoDB</i>. <br /> Currently, I'm working as a
-            junior MERN Stack Developer at <br /> <i>Noble Bridge Technologies</i>, <br /> where I collaborate
-            with cross-functional teams <br /> to develop and maintain robust web
-            applications. <br /> I thrive on translating ideas into reality. <br />  Beyond coding, I'm an
-            avid collaborator and <br /> effective communicator, thriving in team
-            environments and actively contributing to code reviews and
-            continuous improvement initiatives. 
+          <p className='text-white tracking-wider text-[18px]  '>
+          I am a passionate MERN Stack Developer <br /> with a strong foundation in HTML, CSS, and JavaScript. <br /> With 2 years of experience in these core technologies, <br /> <br /> I have gained expertise in delivering exceptional web experiences. <br /> Recently, I have been focusing on React JS and Node JS, <br /> and I enjoy building dynamic and interactive <br /> web applications.
+
+In addition to my proficiency <br /> in React JS and Node JS, <br /> <br /> I am also experienced in Next JS, React Native, <br /> Bootstrap, Tailwind CSS, GraphQL, Express JS, and MongoDB. <br /> These exciting technologies allow me to create <br /> innovative and efficient solutions. <br />
+
+Currently, I work as a junior MERN Stack Developer <br /> at Noble Bridge Technologies. <br /> <br />   I thrive in team environments and  <br />continuous improvement initiatives.
+
+<br /> <br /> Apart from coding, I value effective communication . <br /> I am driven by turning ideas into reality and always seek opportunities for growth and learning in my career as a developer.
           </p>
           <div>
             <Link
@@ -59,7 +52,7 @@ function Home() {
           <img
             src={pic}
             alt="profile picture"
-            className="rounded-2xl mx-auto w-2/3 md:w-full pt-[230%] sm:pt-0"
+            className="rounded-2xl mx-auto w-2/3 md:w-full pt-[230%] sm:pt-0 "
           />
         </div>
       </div>

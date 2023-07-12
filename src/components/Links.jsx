@@ -12,12 +12,12 @@ function Links() {
             child: 
             (
                 <>
-            LinkedIn <FaLinkedin size={30}/>
+            LinkedIn <FaLinkedin className='hover:text-white hover:bg-black' size={30}/>
 
                 </>
             ),
             href:"https://www.linkedin.com/in/shahroz-yaseen/",
-            style:"rounded-tr-md"
+            style:"rounded-tr-md   "
         },
         {
             id:2,
@@ -29,6 +29,8 @@ function Links() {
                 </>
             ),
             href:"https://github.com/PrinceSMK",
+            style:" hover:bg-black hover:text-white  "
+
         },
         {
             id:3,
@@ -40,6 +42,8 @@ function Links() {
                 </>
             ),
             href:"shahrozyaseen7@gmail.com",
+            style:" hover:bg-red-800 hover:text-white  "
+
            
         },
         {
@@ -52,7 +56,8 @@ function Links() {
                 </>
             ),
             href:"resume/pdf",
-            style:"rounded-br-md",
+            style:"rounded-br-md hover:bg-green-800 hover:text-white",
+            
             download:true,
         },
     ]
