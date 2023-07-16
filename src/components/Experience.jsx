@@ -101,13 +101,13 @@ function Experience() {
  
  
     return (
-    <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-[210%] md:pt-[95%] lg:pt-[78%] xl:pt-[3%]'>
+    <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-[210%] md:pt-[105%] lg:pt-[78%] xl:pt-[58%]'>
 
 
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
-                <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
-                <p className='py-6'>These are the technologies I'm working with :-</p>
+                <p className='text-4xl  border-b-4 border-gray-500 p-2 inline text-transparent bg-clip-text bg-gradient-to-r font-extrabold from-cyan-600 to-violet-500 ml-8 md:ml-[33%] lg:ml-0'>Experience</p>
+                <p className='py-6 ml-3 md:ml-44 md:mt-4  lg:ml-0 lg:mt-0 '>These are the technologies I'm <span className='ml-[21%] md:ml-0'>working with :-</span> </p>
             </div>
 
 

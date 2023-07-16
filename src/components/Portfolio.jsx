@@ -4,7 +4,8 @@ import Baroque from "../assets/portfolio/Baroque.jpeg"
 import JJ from "../assets/portfolio/JJ.jpeg"
 import Calculator from "../assets/portfolio/Calculator.jpeg";
 import socialmedia from "../assets/portfolio/socialmedia.jpeg";
-import Analogwatch from "../assets/portfolio/Analogwatch.jpeg"
+import nbt from "../assets/nbt.png"
+import diffco from "../assets/diffco.png"
 
 
 function Portfolio() {
@@ -29,11 +30,11 @@ function Portfolio() {
         },
         {
             id:5,
-            src: Analogwatch
+            src: nbt
         },
         {
             id:6,
-            src: Calculator
+            src: diffco
         },
     ]
   
@@ -43,12 +44,12 @@ function Portfolio() {
   
   
     return (
-    <div name="portfolio" className='pt-[700%] md:pt-[152%] xl:pt-[2%] lg:pt-[76%]  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name="portfolio" className='pt-[550%] md:pt-[120%] xl:pt-[40%] lg:pt-[52%] focus:  bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
 
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                <p className='py-6'>Check out some of my work on GitHub</p>
+                <p className='text-4xl  inline border-b-4 border-gray-500 text-transparent bg-clip-text bg-gradient-to-r font-extrabold from-cyan-600 to-violet-500 ml-[20%] md:ml-[39%] lg:ml-0 '>Portfolio</p>
+                <p className='py-6 ml-5 md:ml-52 lg:ml-0'>Check out some of my work on <span className='font-bold tracking-wider ml-[30%] mt-2 md:mt-0 md:ml-0'>GitHub</span> </p>
             </div>
 
 

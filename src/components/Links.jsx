@@ -17,7 +17,7 @@ function Links() {
                 </>
             ),
             href:"https://www.linkedin.com/in/shahroz-yaseen/",
-            style:"rounded-tr-md   "
+            style:"rounded-tr-md  hover:bg-indigo-900 hover:text-white"
         },
         {
             id:2,
@@ -55,7 +55,7 @@ function Links() {
 
                 </>
             ),
-            href:"resume/pdf",
+            href:"/resume.pdf",
             style:"rounded-br-md hover:bg-green-800 hover:text-white",
             
             download:true,
@@ -65,7 +65,7 @@ function Links() {
  
  
     return (
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+    <div className=' lg:flex flex-col top-[35%] left-0 fixed'>
 
         <ul>
 
