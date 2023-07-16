@@ -6,9 +6,9 @@ function About() {
       name="about"
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-[490%] md:pt-[123%] lg:pt-[52%] xl:pt-[40%]">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-[320%] md:pt-[123%] lg:pt-[52%] xl:pt-[40%]">
         <div className="pb-8">
-          <p className="text-4xl  inline border-b-4 border-gray-500 text-transparent bg-clip-text bg-gradient-to-r font-extrabold from-cyan-600 to-violet-500 ml-[25%] md:ml-[39%] lg:ml-0">
+          <p className="text-4xl  inline border-b-4 border-gray-500 text-transparent bg-clip-text bg-gradient-to-r font-extrabold from-cyan-600 to-violet-500 ml-[32%] md:ml-[39%] lg:ml-0">
             About
           </p>
         </div>
@@ -27,7 +27,7 @@ function About() {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-xl hidden md:block">
           In addition to my technical skills, I am a strong
           communicator, able to effectively articulate complex concepts to both
           technical and non-technical stakeholders. <br /> I am highly adaptable and

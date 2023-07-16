@@ -7,11 +7,11 @@ function Home() {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white pt-[440%] md:pt-[80%] lg:pt-[38%] xl:pt-[30%]"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white pt-[370%] md:pt-[80%] lg:pt-[38%] xl:pt-[30%]"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-3xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 via-violet-600 to-yellow-500 merriweather mt-[75%] md:mt-0">
+          <h2 className="text-3xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 via-violet-600 to-yellow-500 merriweather ml-8 mt-[75%] md:mt-0">
             I'm a MERN Stack <span className="ml-[20%] md:ml-0">Developer</span> 
           </h2>
           <br />
@@ -63,7 +63,7 @@ function Home() {
           <img
             src={pic}
             alt="profile picture"
-            className="rounded-2xl mx-auto w-2/3 md:w-full pt-[300%] md:pt-[-30%] lg:pt-0 sm:pt-0 "
+            className="rounded-2xl mx-auto w-2/3 md:w-full pt-[270%] md:pt-[-30%] lg:pt-0 sm:pt-0 "
           />
         </div>
       </div>
